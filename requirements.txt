@@ -1,0 +1,22 @@
+# CipherOps CTF Toolkit Dependencies
+
+# Core cryptography
+pycryptodome>=3.19.0
+
+# Packet analysis
+scapy>=2.5.0
+
+# Image analysis and steganography
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Optional: Enhanced packet analysis
+# pyshark>=0.6  # Requires tshark/wireshark
+
+# Optional: Additional steganography tools (system packages)
+# steghide - install via system package manager
+# zsteg - gem install zsteg
+# binwalk - pip install binwalk or system package
+
+# Optional: Memory forensics
+# volatility3  # For deep memory analysis
